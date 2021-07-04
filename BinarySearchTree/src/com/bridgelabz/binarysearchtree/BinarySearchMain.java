@@ -3,8 +3,10 @@ package com.bridgelabz.binarysearchtree;
 public class BinarySearchMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		BinarySearchService BST = new BinarySearchService();
+		BST.insert(56);
+		BST.insert(30);
+		BST.insert(70);
 
 	}
-
 }
